@@ -1,0 +1,53 @@
+@charset "utf-8";
+header.row h2 {
+	color: #74058C;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 350%;
+	text-align: center;
+	text-shadow: 0px 5px #9E9E9E;
+	background-color: #CBFBF5;
+	border-collapse: collapse;
+	border: thin solid #74058C;
+	border-radius: 20px;
+	padding: 20px 0px;
+	background-position: center top;
+	background-image: url(images/Rainbow-29.png), -webkit-linear-gradient(270deg,rgba(203,251,245,1.00) 0%,rgba(9,193,185,1.00) 100%);
+	background-image: url(images/Rainbow-29.png), -moz-linear-gradient(270deg,rgba(203,251,245,1.00) 0%,rgba(9,193,185,1.00) 100%);
+	background-image: url(images/Rainbow-29.png), -o-linear-gradient(270deg,rgba(203,251,245,1.00) 0%,rgba(9,193,185,1.00) 100%);
+	background-image: url(images/Rainbow-29.png), linear-gradient(180deg,rgba(203,251,245,1.00) 0%,rgba(9,193,185,1.00) 100%);
+	background-repeat: no-repeat;
+	background-size: auto 300%;
+}
+nav.row .navbar.navbar-default {
+	background-color: #8EF782;
+	color: #030303;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+nav.row.nav.navbar-nav>li>a:link, nav.row.nav.navbar-nav>li>a:visited{
+	border-left: medium solid #041E5A;
+	border-right: medium solid #041E5A;
+	border-bottom: medium solid #041E5A;
+	border-top: medium solid #041E5A;
+}
+nav.row.nav.navbar-nav>li>a:hover {
+	background-color: #8EF782;
+}
+footer {
+	padding: 1em 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: italic;
+	text-align: right;
+	background-color: #8EF782;
+}
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	background-color: #FCEAFD;
+	color: #041E5A;
+}
+aside {
+}
