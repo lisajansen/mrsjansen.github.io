@@ -21,20 +21,27 @@ header.row h2 {
 	background-size: auto 300%;
 }
 nav.row .navbar.navbar-default {
-	background-color: #8EF782;
-	color: #030303;
+	background-color: #93FDBD;
+	color: #050339;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	font-weight: normal;
 	text-align: center;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px #FBFBFD;
+	box-shadow: 0px 0px #FBFBFD;
+	border-color: #050339;
 }
 nav.row.nav.navbar-nav>li>a:link, nav.row.nav.navbar-nav>li>a:visited{
 	border-left: medium solid #041E5A;
 	border-right: medium solid #041E5A;
 	border-bottom: medium solid #041E5A;
 	border-top: medium solid #041E5A;
+	border-top-left-radius: 4px;
 }
 nav.row.nav.navbar-nav>li>a:hover {
 	background-color: #8EF782;
+	border-radius: 20px;
+	color: #000000;
 }
 footer {
 	padding: 1em 0px;
@@ -50,4 +57,9 @@ body {
 	color: #041E5A;
 }
 aside {
+}
+#defaultNavbar1 .nav.navbar-nav li {
+}
+.container .row .col-sm-10 {
+	border-top-left-radius: 20px;
 }
