@@ -11,7 +11,7 @@ header.row h2 {
 	border-collapse: collapse;
 	border: thin solid #74058C;
 	border-radius: 20px;
-	padding: 20px 0px;
+	padding: 40px 0px;
 	background-position: center top;
 	background-image: url(images/Rainbow-29.png), -webkit-linear-gradient(270deg,rgba(203,251,245,1.00) 0%,rgba(9,193,185,1.00) 100%);
 	background-image: url(images/Rainbow-29.png), -moz-linear-gradient(270deg,rgba(203,251,245,1.00) 0%,rgba(9,193,185,1.00) 100%);
@@ -19,7 +19,7 @@ header.row h2 {
 	background-image: url(images/Rainbow-29.png), linear-gradient(180deg,rgba(203,251,245,1.00) 0%,rgba(9,193,185,1.00) 100%);
 	background-repeat: no-repeat;
 	background-size: auto 300%;
-}
+} div.col-sm-12{padding:0px;}
 nav.row .navbar.navbar-default {
 	background-color: #93FDBD;
 	color: #050339;
